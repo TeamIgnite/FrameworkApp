@@ -1,1 +1,10 @@
-<p>Welcome to <?php echo $this->name; ?></p>
+{% extends "layouts/master.phtml" %}
+
+{% block title %}Frame Application{% endblock %}
+
+{% block content %}
+
+    <h3>{{welcome}} to {{name}}!</h3>
+    <p>This is an example application. It uses Twig for it's View Composer.</p>
+
+{% endblock %}

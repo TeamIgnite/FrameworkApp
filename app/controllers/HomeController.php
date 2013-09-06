@@ -2,12 +2,13 @@
 
 class HomeController extends Frame\Controller\View {
 
-    public $layout = 'layouts/master';
+    public $composer = 'Frame\\Controller\\Composers\\Twig';
     
     public function index() {
+        $welcome = '歓迎';
         $name = 'Frame';
 
-        return $this->make('home', compact('name'));
+        return $this->make('home', compact('name', 'welcome'));
     }
 
 }

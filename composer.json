@@ -8,6 +8,7 @@
     "require": {
         "axxim/frame": "dev-master",
         "dflydev/markdown": "*",
-        "illuminate/database": "*"
+        "illuminate/database": "*",
+        "twig/twig": "1.*"
     }
 }
