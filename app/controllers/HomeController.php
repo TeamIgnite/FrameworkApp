@@ -1,11 +1,13 @@
 <?php
 
-class HomeController extends Frame\Controller\Markdown {
+class HomeController extends Frame\Controller\View {
+
+    public $layout = 'layouts/master';
     
     public function index() {
-        $markdown = "## Welcome to Frame";
+        $name = 'Frame';
 
-        return $markdown;
+        return $this->make('home', compact('name'));
     }
 
 }
