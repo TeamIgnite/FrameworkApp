@@ -1,12 +1,12 @@
 <?php
 
-class HomeController extends Frame\Controller\View {
+class HomeController extends Framework\Controller\View {
 
-    public $composer = 'Frame\\Controller\\Composers\\Twig';
+    public $composer = 'Framework\\Controller\\Composers\\Twig';
     
     public function index() {
         $welcome = '歓迎';
-        $name = 'Frame';
+        $name = 'Framework';
 
         return $this->make('home', compact('name', 'welcome'));
     }

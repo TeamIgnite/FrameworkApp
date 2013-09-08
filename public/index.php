@@ -2,7 +2,7 @@
 
 require "../bootstrap.php";
 
-$app = new Frame\Frame();
+$app = new Framework\Framework();
 $app->start();
 
 $app->stop();

@@ -6,7 +6,7 @@
         ]
     },
     "require": {
-        "axxim/frame": "dev-master",
+        "ignite/framework": "dev-master",
         "dflydev/markdown": "*",
         "illuminate/database": "*",
         "twig/twig": "1.*"
