@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require 'bootstrap.php';
+
+// Load the framework
+$app = new Framework\Framework();
+
+$ignite = new Framework\Console\Console();
+$ignite->start();
+
+exit();
